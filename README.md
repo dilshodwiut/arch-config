@@ -1,1 +1,1 @@
-# Software install scripts after installing Arch Linux with KDE
+# Software install scripts after installing Arch based distributions

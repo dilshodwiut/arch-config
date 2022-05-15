@@ -20,6 +20,13 @@ PKGS=(
 
 	# General Utilities
 	'flameshot'
+	'qbittorrent'
+	'droidcam'
+	'bleachbit'
+	'stacer'
+	'filezilla'
+	'warpinator'
+	'obsidian'
 
 	# Messaging
 	'telegram-desktop'
@@ -29,18 +36,31 @@ PKGS=(
 	'smplayer'
 	'audacious'
 	'obs-studio'
+	'kdenlive'
+	'audacity'
+	'vlc'
 
 	# Development
+	'firefox'
+	'chromium'
 	'git'
 	'vim'
 	'nodejs'
+	'rust'
+	'go'
+	'typescript'
+	'python3'
+	'python2'
 	'npm'
 	'firefox-developer-edition'
 	'gnome-keyring'
 	'libsecret'
+	'geany'
 
 	# Graphics and Design
 	'gimp'
+	'inkscape'
+	'blender'
 
 	# Productivity
 	'libreoffice'

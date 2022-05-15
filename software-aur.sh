@@ -16,9 +16,18 @@ PKGS=(
 	# Internet
 	'brave-bin'
 	'xdman'
+	
+	# Misc
+	'onlyoffice-bin'
+	'keepassx'	
 
-	# Text-editor
+	# Web Dev
 	'visual-studio-code-bin'
+	'runjs-bin'
+	'postman-bin'
+	'webstorm'
+	'nvm'
+	# 'fleet'
 )
 
 for PKG in "${PKGS[@]}"; do

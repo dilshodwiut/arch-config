@@ -46,6 +46,7 @@ PKGS=(
 	'git'
 	'vim'
 	'nodejs'
+	'deno'
 	'rust'
 	'go'
 	'typescript'

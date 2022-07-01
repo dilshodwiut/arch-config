@@ -7,19 +7,22 @@ PKGS=(
 
 	# Misc
 	'onlyoffice-bin'
-	'keepassx'
+	'keepassxc'
+	'stacer'
+	'dropbox'
+	'spotify'
+	'timeshift'
 
 	# Web Dev
 	'visual-studio-code-bin'
 	'runjs-bin'
 	'postman-bin'
 	'webstorm'
-	'nvm'
 	# 'fleet'
 )
 
 for PKG in "${PKGS[@]}"; do
-	yay -S $PKG --no-confirm
+	yay -S $PKG
 done
 
 echo -e "\nDone\n"

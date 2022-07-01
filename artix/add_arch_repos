@@ -1,3 +1,13 @@
+# Append these lines to /etc/pacman.conf
+[universe]
+Server = https://universe.artixlinux.org/$arch
+Server = https://mirror1.artixlinux.org/universe/$arch
+Server = https://mirror.pascalpuffke.de/artix-universe/$arch
+Server = https://artixlinux.qontinuum.space/artixlinux/universe/os/$arch
+Server = https://mirror1.cl.netactuate.com/artix/universe/$arch
+Server = https://ftp.crifo.org/artix-universe/
+
+# Install package
 pacman -Syu artix-archlinux-support
 
 # Append those files into /etc/pacman.conf
@@ -5,24 +15,20 @@ pacman -Syu artix-archlinux-support
 #[testing]
 #Include = /etc/pacman.d/mirrorlist-arch
 
-
 [extra]
 Include = /etc/pacman.d/mirrorlist-arch
-
 
 #[community-testing]
 #Include = /etc/pacman.d/mirrorlist-arch
 
-
 [community]
 Include = /etc/pacman.d/mirrorlist-arch
-
 
 #[multilib-testing]
 #Include = /etc/pacman.d/mirrorlist-arch
 
-
 #[multilib]
  #Include = /etc/pacman.d/mirrorlist-arch
 
+# Run this command on terminal with root priviliges
 pacman-key --populate archlinux

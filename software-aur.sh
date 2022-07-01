@@ -19,14 +19,16 @@ PKGS=(
 	
 	# Misc
 	'onlyoffice-bin'
-	'keepassx'	
+	'keepassx'
+	'stacer'
+	'dropbox'
+	'spotify'
 
 	# Web Dev
 	'visual-studio-code-bin'
 	'runjs-bin'
 	'postman-bin'
 	'webstorm'
-	'nvm'
 	# 'fleet'
 )
 

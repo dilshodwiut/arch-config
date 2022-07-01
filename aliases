@@ -3,5 +3,4 @@ alias ping='ping 8.8.8.8'
 alias matrix='cmatrix -u10'
 alias reboot='sudo reboot'
 alias poweroff='sudo poweroff'
-alias serve'browser-sync start --server --files .'
-
+alias serve='browser-sync start --server --files .'

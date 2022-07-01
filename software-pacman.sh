@@ -6,6 +6,7 @@ PKGS=(
 	# System
 	'linux-lts'
 	'linux-lts-headers'
+	'base-devel'
 
 	# Terminal Utilities
 	'neofetch'
@@ -13,6 +14,7 @@ PKGS=(
 	'conky'
 	'cmatrix'
 	'openssh'
+	'terminator'
 
 	# Disk Utilities
 	'ntfs-3g'
@@ -23,7 +25,6 @@ PKGS=(
 	'qbittorrent'
 	'droidcam'
 	'bleachbit'
-	'stacer'
 	'filezilla'
 	'warpinator'
 	'obsidian'
@@ -65,7 +66,6 @@ PKGS=(
 
 	# Productivity
 	'libreoffice'
-	'dropbox'
 
 )
 

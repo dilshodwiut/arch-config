@@ -5,7 +5,7 @@ echo "Changing directory to /opt..."
 cd "/opt"
 
 echo "Cloning yay..."
-sudo git clone "sudo git clone https://aur.archlinux.org/yay-git.git"
+sudo git clone "https://aur.archlinux.org/yay-git.git"
 
 echo "Changing the file permissions from the root to the sudo user..."
 sudo chown -R dilshod:dilshod ./yay-git
